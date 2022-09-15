@@ -21,7 +21,7 @@ h1 {
     color: #E5316F;
 }
 
-p {
+.description {
     margin-top: 50px;
 }
 
@@ -30,14 +30,38 @@ p {
     margin: auto;
 }
 
-.column .card  {
+.col {
     float: left;
-    margin: 5px solid blue;
     width: calc(100% / 3);
-    height: 100px;
-    background-color: aqua;
-    
+    text-align: center;
+    padding: 10px 20px;
 }
+
+.card {
+    background-color: black;
+    color: white;
+}
+
+
+
+.col img {
+    height: 100px;
+}
+
+.card img {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
