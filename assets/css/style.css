@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Reset della pagina */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Fix problema float */
+
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Parte introduttiva */
 
 header {
     width: 80%;
@@ -25,12 +38,14 @@ h1 {
     margin-top: 50px;
 }
 
+/* Stile carte */
+
 .container {
     width: 80%;
     margin: auto;
 }
 
-.col {
+.column {
     float: left;
     width: calc(100% / 3);
     text-align: center;
@@ -40,11 +55,19 @@ h1 {
 .card {
     background-color: black;
     color: white;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px 0px #000000;
 }
 
+.card .email {
+    color: rgb(89, 188, 221);
+}
 
+h4 {
+    font-weight:bolder;
+}
 
-.col img {
+.column img {
     height: 100px;
 }
 
