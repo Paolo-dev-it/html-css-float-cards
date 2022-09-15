@@ -10,5 +10,36 @@
     clear: both;
 }
 
+header {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #E5316F;
+}
+
+p {
+    margin-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.column .card  {
+    float: left;
+    margin: 5px solid blue;
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: aqua;
+    
+}
+
+
+
 
 
